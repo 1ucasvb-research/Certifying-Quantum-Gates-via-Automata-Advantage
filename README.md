@@ -2,10 +2,10 @@
 
 Code used in the paper "[Certifying Quantum Gates via Automata Advantage](https://arxiv.org/abs/2510.09575)", by Anna Schroeder, Lucas B. Vieira, Jan Nöller, Nikolai Miklin, and Mariami Gachechiladze.
 
-# QSQ robustness
+## QSQ robustness
 The `QSQ_robustness_Sx.cpp` is the code used to generate the Quantum System Quizzing robustness data. Requires [Armadillo](https://arma.sourceforge.net/) and [tinyformat by Chris Foster](https://github.com/c42f/tinyformat) (included). Compiles directly with `g++` and `-std=c++17 -larmadillo` flags. This code is licensed LGPL v2.1
 
-## Usage
+### Usage
 
 Some parameters are hardcoded, but easy to modify at the top of the file:
 - `DENSITY_PLOT_W`, `DENSITY_PLOT_H`: determine the width and height of the plot. Original values used were `4000` and `3000`, respectively.
