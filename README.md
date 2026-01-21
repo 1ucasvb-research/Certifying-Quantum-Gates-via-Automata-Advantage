@@ -1,6 +1,6 @@
 # Certifying Quantum Gates via Automata Advantage
 
-Code used in the paper "Certifying Quantum Gates via Automata Advantage", by Anna Schroeder, Lucas B. Vieira, Jan Nöller, Nikolai Miklin3, and Mariami Gachechiladze.
+Code used in the paper "[Certifying Quantum Gates via Automata Advantage](https://arxiv.org/abs/2510.09575)", by Anna Schroeder, Lucas B. Vieira, Jan Nöller, Nikolai Miklin, and Mariami Gachechiladze.
 
 # QSQ robustness
 The `QSQ_robustness_Sx.cpp` is the code used to generate the Quantum System Quizzing robustness data. Requires [Armadillo](https://arma.sourceforge.net/) and [tinyformat by Chris Foster](https://github.com/c42f/tinyformat) (included). Compiles directly with `g++` and `-std=c++17 -larmadillo` flags. This code is licensed LGPL v2.1
@@ -22,7 +22,7 @@ The output is a binary file named ``data_{DENSITY_PLOT_W}x{DENSITY_PLOT_H}_L{L}_
 The file contains raw data of an array of `float`s of size `DENSITY_PLOT_W` x `DENSITY_PLOT_H`. Example Mathematica code to read it:
 
 ```Mathematica
-BinaryReadList["data_4000x300_L3_name.bin", "Real32"];
+BinaryReadList["data_4000x3000_L3_name.bin", "Real32"];
 data = Image[ArrayReshape[data, {3000, 4000}]]
 ```
 
