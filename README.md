@@ -1,9 +1,9 @@
-# Quantum System Quizzing robustness analysis for the S gate
+# Certifying Quantum Gates via Automata Advantage
 
-Code used to generate the Quantum System Quizzing robustness data for the paper "Certifying Quantum Gates via Automata Advantage", by Anna Schroeder, Lucas B. Vieira, Jan Nöller, Nikolai Miklin3, and Mariami Gachechiladze.
-Requires [Armadillo](https://arma.sourceforge.net/) and [tinyformat by Chris Foster](https://github.com/c42f/tinyformat) (included).
+Code used in the paper "Certifying Quantum Gates via Automata Advantage", by Anna Schroeder, Lucas B. Vieira, Jan Nöller, Nikolai Miklin3, and Mariami Gachechiladze.
 
-Compiles directly with `g++` and `-std=c++17 -larmadillo` flags.
+# QSQ robustness
+The `QSQ_robustness_Sx.cpp` is the code used to generate the Quantum System Quizzing robustness data. Requires [Armadillo](https://arma.sourceforge.net/) and [tinyformat by Chris Foster](https://github.com/c42f/tinyformat) (included). Compiles directly with `g++` and `-std=c++17 -larmadillo` flags. This code is licensed LGPL v2.1
 
 ## Usage
 
