@@ -27,3 +27,9 @@ data = Image[ArrayReshape[data, {3000, 4000}]]
 ```
 
 The code is single-threaded for simplicity, but can be ran in multiple instances with different target output files if necessary.
+
+## Minimality proof for the promise-version DFA for \texttt{Cl}
+
+Below Observation 1, we prove the minimality of the 6-state pvDFA as depicted in Figure 4. The notebook `sh_dfa.ipynb`
+contains code that supports this claim by iterating over all possible pvDFAs up to a state dimension of 6 and checking the 
+compatibility of each pvDFA with the promise problem.
